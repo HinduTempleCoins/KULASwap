@@ -1,0 +1,21 @@
+{
+  "name": "tron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tronbox-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "npx tronbox compile",
+    "migrate": "npx tronbox migrate",
+    "lint": "npx solhint ./contracts/**/*.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solhint": "^3.3.4",
+    "tronbox": "^2.7.18"
+  }
+}
